@@ -1,0 +1,32 @@
+header {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            transition: 0.5s;
+            padding: 10px 20px;
+            border-radius: 2em;
+            margin-right: 10px;
+            &:hover,
+            &.active {
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                transition: 0.5s;
+                color: #007AFF;
+            }
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}
