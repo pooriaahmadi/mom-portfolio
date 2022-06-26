@@ -16,7 +16,7 @@ const Home = () => {
 					)}
 				/>
 				<Category
-					title="Fasion Figure Sketches"
+					title="Fashion Figure Sketches"
 					files={require.context(
 						"../images/fasion_figure_sketches",
 						false,
