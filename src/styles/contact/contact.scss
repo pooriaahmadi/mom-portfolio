@@ -1,0 +1,50 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 200px;
+    border-radius: 20px;
+    >h1 {
+        margin-bottom: 20px;
+    }
+    >form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        >div {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            > label {
+                font-size: 20px;
+                font-weight: 500;
+            }
+            > input, select, textarea {
+                outline: none;
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                padding: 10px 20px;
+                border-radius: 10px;
+                transition: 0.5s all;
+                font-size: 15px;
+                &:focus {
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+            }
+            >textarea {
+                resize: none;
+            }
+        }
+        >button {
+            outline: none;
+            border: none;
+            background-color: #0069ff;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}

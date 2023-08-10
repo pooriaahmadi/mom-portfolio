@@ -1,14 +1,17 @@
 .category {
-    padding: 40px;
-    margin-bottom: 40px;
-    border-radius: 15px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    .top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        h1 {
-            margin-bottom: 20px;
-        }
+  padding: 40px;
+  border-radius: 15px;
+  flex-basis: calc(50% - 10px);
+  flex-grow: 1;
+
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      margin-bottom: 20px;
     }
+  }
 }
