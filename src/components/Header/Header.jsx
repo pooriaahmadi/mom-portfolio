@@ -18,13 +18,13 @@ const Header = () => {
         </a>
       </div>
       <div className="right">
-        <a href="">
+        <a href="mailto:samiramohammadi4849@gmail.com">
           <img src={emailSvg} alt="" />
         </a>
         <a href="">
           <img src={instagramSvg} alt="" />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/samira-mohammadi4849">
           <img src={linkedinSvg} alt="" />
         </a>
         <a href="">
